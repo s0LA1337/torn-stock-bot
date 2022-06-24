@@ -1,0 +1,3 @@
+[submodule "lib/zCord"]
+	path = lib/zCord
+	url = https://github.com/fengb/zCord
