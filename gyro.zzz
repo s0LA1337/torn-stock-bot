@@ -1,2 +1,5 @@
 deps:
-  mattnite/zCord: ^0.0.2
+  zCord:
+    git:
+      url: "https://github.com/fengb/zCord.git"
+      ref: master

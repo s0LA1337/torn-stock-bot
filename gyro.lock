@@ -1,4 +1,5 @@
-pkg astrolabe.pm mattnite zCord 0.0.2
-pkg astrolabe.pm mattnite hzzp 0.0.2
-pkg astrolabe.pm mattnite wz 0.0.0
-git https://github.com/fengb/iguanaTLS.git fix-base64 src/main.zig 00ae14521c3847642415fede17e9d71ee6d22b1c
+pkg astrolabe.pm truemedian hzzp 0.1.7
+git https://github.com/fengb/zCord.git master src/main.zig cabf64fb476db622327e0500616688231b583ed5
+git https://github.com/truemedian/wz.git master src/main.zig 2e607de7084a4e1e6010653c5e207e93dba970b0
+git https://github.com/marler8997/iguanaTLS.git master src/main.zig 47169e207864e0cfbace3c92a31a0cf8d938d1b2
+git https://github.com/fengb/zasp.git master src/main.zig 16249378c8c214a251358ee7c2675af394ba5a13
