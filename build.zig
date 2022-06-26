@@ -1,4 +1,5 @@
 const std = @import("std");
+const pkgs = @import("deps.zig").pkgs;
 
 pub fn build(b: *std.build.Builder) void {
     // Standard target options allows the person running `zig build` to choose
@@ -12,9 +13,9 @@ pub fn build(b: *std.build.Builder) void {
     const mode = b.standardReleaseOptions();
 
     const exe = b.addExecutable("twisted-stock-bot", "src/main.zig");
-    exe.addPackagePath("zCord", "lib/zCord/src/main.zig");
     exe.setTarget(target);
     exe.setBuildMode(mode);
+    pkgs.addAllTo(exe);
     exe.install();
 
     const run_cmd = exe.run();
