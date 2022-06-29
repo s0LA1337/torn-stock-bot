@@ -12,7 +12,7 @@ pub fn build(b: *std.build.Builder) void {
     // between Debug, ReleaseSafe, ReleaseFast, and ReleaseSmall.
     const mode = b.standardReleaseOptions();
 
-    const exe = b.addExecutable("twisted-stock-bot", "src/main.zig");
+    const exe = b.addExecutable("torn-stock-bot", "src/main.zig");
     exe.setTarget(target);
     exe.setBuildMode(mode);
     pkgs.addAllTo(exe);
